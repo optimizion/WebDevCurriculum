@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- TODO: 또 무엇이 필요할까요? -->
+    <!-- Google Icons -->
+    <!-- <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    /> -->
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header>
+      <!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
+      <div class="quick-icon-bar">
+        <a href="" class="quick-icon-bar__left">
+          <span class="material-icons md-18">menu</span>
+        </a>
+        <div class="quick-icon-bar__right">
+          <a name="qr-checkin" href="">QR 체크인</a>
+          <a name="naver-pay" href="">
+            <span class="material-icons md-18">font_download</span>
+            <span>Pay</span>
+          </a>
+          <a name="print" href=""
+            ><span class="material-icons md-18">print</span></a
+          >
+        </div>
+      </div>
+      <div class="logo_area">
+        <a name="logo" href=""><span class="blind">네이버</span></a>
+      </div>
+      <form name="search-form">
+        <fieldset>
+          <legend class="blind">검색</legend>
+          <div class="green_window">
+            <input
+              type="text"
+              name="search__input_text"
+              id=""
+              placeholder="검색어를 입력해주세요."
+            />
+          </div>
+        </fieldset>
+
+        <button name="voice-search"></button>
+        <button name="qr"></button>
+        <button name="gps"></button>
+      </form>
+      <nav>
+        <ul>
+          <li>
+            <a class="fv_nav_item" href=""
+              ><div class="fv_item_logo"></div>
+              <span class="fv_item_name">뉴스판</span></a
+            >
+          </li>
+          <li>
+            <a class="fv_nav_item" href=""
+              ><div class="fv_item_logo"></div>
+              <span class="fv_item_name">경제지표판</span></a
+            >
+          </li>
+          <li>
+            <a class="fv_nav_item" href=""
+              ><div class="fv_item_logo"></div>
+              <span class="fv_item_name">연예판</span></a
+            >
+          </li>
+          <li>
+            <a class="fv_nav_item" href=""
+              ><div class="fv_item_logo"></div>
+              <span class="fv_item_name">트렌드판</span></a
+            >
+          </li>
+          <li>
+            <a class="fv_nav_item" href=""
+              ><div class="fv_item_logo"></div>
+              <span class="fv_item_name">메일</span></a
+            >
+          </li>
+          <li>
+            <a class="fv_nav_item" href=""
+              ><div class="fv_item_logo"></div>
+              <span class="fv_item_name">카페</span></a
+            >
+          </li>
+          <li>
+            <a class="fv_nav_item" href=""
+              ><div class="fv_item_logo"></div>
+              <span class="fv_item_name">블로그</span></a
+            >
+          </li>
+          <li>
+            <a class="fv_nav_item" href=""
+              ><div class="fv_item_logo"></div>
+              <span class="fv_item_name hidden">더보기</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="main">
+      <!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
+      <section class="info_bar">
+        <a href="" name="info_bar__weather"
+          ><span class="info_bar__weather_icon"></span><span>10'c 맑음</span
+          ><span>어제보다 2'c 높아요</span>
+        </a>
+        <div class="vertical-bar">
+          <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img
+            src=""
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="weather-info">
+        <h2>날씨</h2>
+        <span>서울시 잠실동</span><img src="" alt="" />
+        <button>시간대별 날씨</button><button>시간대별 미세먼지</button
+        ><button>주간 날씨</button><button>주간 미세먼지</button>
+        <div name="temperature-bar">
+          <span>19'c - 8'c</span><img src="" alt="sunny" /><span>어제</span>
+        </div>
+        <div name="temperature-bar">
+          <span>19'c - 8'c</span><img src="" alt="sunny" /><span>오늘</span>
+        </div>
+        <div name="temperature-bar">
+          <span>19'c - 8'c</span><img src="" alt="sunny" /><span>월</span>
+        </div>
+        <div name="temperature-bar">
+          <span>19'c - 8'c</span><img src="" alt="sunny" /><span>화</span>
+        </div>
+        <div name="temperature-bar">
+          <span>19'c - 8'c</span><img src="" alt="sunny" /><span>수</span>
+        </div>
+        <div name="temperature-bar">
+          <span>19'c - 8'c</span><img src="" alt="sunny" /><span>목</span>
+        </div>
+        <div name="temperature-bar">
+          <span>19'c - 8'c</span><img src="" alt="sunny" /><span>금</span>
+        </div>
+        <div name="temperature-bar">
+          <span>19'c - 8'c</span><img src="" alt="sunny" /><span>토</span>
+        </div>
+        <div name="temperature-bar">
+          <span>19'c - 8'c</span><img src="" alt="sunny" /><span>일</span>
+        </div>
+      </section>
+      <section class="covid-19">
+        <a href=""
+          ><img src="" alt="" /><span>코로나 19</span
+          ><span>국내외 확진 현황</span></a
+        >
+        <a href=""
+          ><img src="" alt="" /><span>코로나19 팩트체크</span
+          ><span>백신 정보 팩트는?</span></a
+        >
+      </section>
+      <section class="anniversary">
+        <img src="" alt="" /><span
+          >제 102주년 <b>대한민국 임시정부 수립일</b></span
+        >
+      </section>
+      <section class="new-app">
+        <img src="" alt="" /><span
+          >앱으로 <b>새로운 네이버</b>를 더 쾌적하게 사용해 보세요.</span
+        ><button>앱 사용하기</button>
+      </section>
+      <section class="webtoon">
+        <span>웹툰</span><button name="더보기"></button>
+      </section>
+      <section class="hot">
+        <ul>
+          <li><a href="">영화판</a></li>
+        </ul>
+        <ul>
+          <li><a href="">뿜판</a></li>
+        </ul>
+        <ul>
+          <li><a href="">웹툰판</a></li>
+        </ul>
+        <ul>
+          <li><a href="">경제M판</a></li>
+        </ul>
+      </section>
+      <section class="update-notice"></section>
+    </section>
+
+    <footer>
+      <!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
+      <span
+        ><a href="">로그인</a><a href="">전체서비스</a
+        ><a href="">PC버전</a></span
+      >
+      <span
+        ><a href="">이용약관</a><a href=""><b>개인정보처리방침</b></a
+        ><a href="">고객센터</a></span
+      >
+      <img src="" alt="" />
+    </footer>
+  </body>
+</html>
