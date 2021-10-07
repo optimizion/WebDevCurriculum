@@ -413,3 +413,30 @@ nav ul li {
   display: inline-block;
   padding-top: 4px;
 }
+.anniversary {
+  width: 560px;
+  height: 60px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  margin-left: -280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12px;
+  align-items: center;
+}
+.anniversary_logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.anniversary_text {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.anniversary_text span {
+  font-weight: 600;
+}
