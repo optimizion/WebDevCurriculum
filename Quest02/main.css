@@ -243,7 +243,7 @@ nav ul li {
 }
 .main > section {
   margin: 0 auto 10px;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(250, 250, 250);
 }
 .info_bar {
   width: 560px;
@@ -537,4 +537,28 @@ nav ul li {
 .update_notice > span {
   font-size: 22px;
   opacity: 0.3;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: #969aa4;
+}
+footer div {
+  margin: 2px;
+}
+footer div a {
+  margin: 0 4px;
+}
+footer > span {
+  color: #b7bcc5;
+  font-size: 16px;
+  font-weight: 700;
+  height: 30px;
+  display: flex;
+  align-items: center;
 }
